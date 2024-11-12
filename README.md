@@ -21,14 +21,15 @@ cd todo-list-docker-react
 
 - **backend/**: Contém o código PHP do backend e o `Dockerfile` para configurar o ambiente PHP.
 - **docker-compose.yml**: Arquivo de configuração do Docker Compose que define os serviços para o backend em PHP e o banco de dados MySQL.
-- **frontend/**: Diretório para o frontend em React (a ser implementado).
+- **frontend/**: Diretório para o frontend em React (ainda será implementado).
 
 ### Configuração e Inicialização dos Containers
 
 Para iniciar o projeto, use o Docker Compose:
 
 ```bash
-docker-compose up -d --build # Eu utilizo o -d para que o build rode em segundo plano e eu permaneça com acesso ao Terminal
+docker-compose up -d --build 
+# Eu gosto de utilizar o "-d" para a build rodar em segundo plano e eu permaneça com acesso ao Terminal
 ```
 
 Esse comando irá:
