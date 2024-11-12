@@ -1,0 +1,16 @@
+# Arquivos e pastas do Docker
+*.log
+*.pid
+tmp/
+build/
+docker-compose.yml
+
+# Dados do banco de dados
+db_data/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente
+.env
